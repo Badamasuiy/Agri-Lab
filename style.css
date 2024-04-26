@@ -128,3 +128,54 @@ footer {
     display: flex;
     flex-direction: column;
 }
+.our_tech_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our_tech_text h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.our_tech_text p{
+    width: 1033px;
+    font-size: 25px;
+}
+.overlay2{
+    background-image: url(./images/resources.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+  }
+  .banner_text2{
+    padding: 220px 0px 0px 35px;
+}
+.d_text2 h2{
+    font-size: 50px;
+    color: white;
+}
+.d_text2 p{
+    font-size: 25px;
+    color: white; 
+    line-height: 1.5; 
+}
+.farm_story{
+    display: flex;
+}
+.farm_story_image img{
+    margin-left: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.farm_story_text{
+    font-size: 30px;
+    padding: 160px 0px 0px 61px;
+    color: #6f0689;
+    width: 700;
+}
