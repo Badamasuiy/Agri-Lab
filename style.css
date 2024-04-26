@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer {
+    background-color: #333;
+    color: #ffffffec;
+    padding: 0;
+    width: auto;
+    margin: 0;}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;}
+
+.footer-column {
+    width: 30%;
+    align-content: center;}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;}
+
+.footer-column p {
+    font-size: 14px;
+    margin-bottom: 15px;}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    text-decoration-color: gray;}
+
+.footer-column ul li {
+    margin-bottom: 5px;}
+.social-links {
+    display: flexbox;}
+
+.social-links li {
+    margin-right: 10px;}
+
+.s-icon {
+    margin: 0 10px;
+    width: 30px;
+    cursor: pointer;
+    color: white;
+    padding: 0 0 0 5px;}
+.site-footer-input {
+    height: 35px;
+    width: 122%;
+    border-radius: 10px;
+    display: flex;
+    background-color: #333;
+    border: 2px solid gray;}
+
+.footer-copy{
+    text-decoration: none;
+    margin-left: 530px;
+    color: white;}
+
+.footer-column3{
+    margin-top: 15px;
+}
+.overlay{
+    background-image: url(./images/lady-grain.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+.banner_text{
+    padding: 100px 0px 0px 35px;
+}
+.d_text h2{
+    font-size: 50px;
+    color: white;
+}
+.d_text p{
+    font-size: 25px;
+    color: white; 
+    line-height: 1.5; 
+}
+.first_page_breaker img{
+    width: 100%;
+}
+.first_head_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first_head_text h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.first_head_text p{
+    font-size: 25px;
+    width: 870px;
+    line-height: 1.5;
+}
+.first_designer_logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    width: 100%;
+}
+.second_designer_logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    width: 100%;
+}
+.logo_container span{
+    font-size: 20px;
+}
+.logo_container img{
+    height: 150px;
+    width: 150px;
+}
+.logo_container{
+    display: flex;
+    flex-direction: column;
+}
+.our_tech_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our_tech_text h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.our_tech_text p{
+    width: 1033px;
+    font-size: 25px;
+}
+.overlay2{
+    background-image: url(./images/resources.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+  }
+  .banner_text2{
+    padding: 220px 0px 0px 35px;
+}
+.d_text2 h2{
+    font-size: 50px;
+    color: white;
+}
+.d_text2 p{
+    font-size: 25px;
+    color: white; 
+    line-height: 1.5; 
+}
+.farm_story{
+    display: flex;
+}
+.farm_story_image img{
+    margin-left: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.farm_story_text{
+    font-size: 30px;
+    padding: 160px 0px 0px 61px;
+    color: #6f0689;
+    width: 700;
+}
